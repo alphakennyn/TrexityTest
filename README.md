@@ -1,4 +1,4 @@
-# Trexicity Challenge
+# Trexity Challenge
 ## Set-up
 
 Install both FE and BE dependencies. I didn't want to `npm eject` so I left the FE files at root level so `react-scripts` can still work.
