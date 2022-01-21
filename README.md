@@ -15,6 +15,8 @@ The component should be capable of interfacing with a web service that saves and
 
 `npm run start:web`
 
+go to http://localhost:3000
+
 ---
 
 ## Backend
@@ -22,3 +24,7 @@ The component should be capable of interfacing with a web service that saves and
 Implement a Nodejs server application using Expressjs. 
 There only needs to be one endpoint "/hello" that returns the string "World!" when requested using "GET". 
 However, configure the server following Nodejs/Express best practices for security. Lock it down.
+
+`npm run start:server`
+
+go to http://localhost:3001/hello

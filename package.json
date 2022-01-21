@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "cd car-management-system && npm i",
-    "start:web": "cd car-management-system && npm start"
+    "install": "npm i && cd car-management-system && npm i",
+    "start:web": "cd car-management-system && npm start",
+    "start:server": "node backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/alphakennyn/TrexityTest/issues"
   },
-  "homepage": "https://github.com/alphakennyn/TrexityTest#readme"
+  "homepage": "https://github.com/alphakennyn/TrexityTest#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
