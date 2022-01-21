@@ -6,7 +6,6 @@ const Datalist = ({ cars, setToPrimary }) => {
     const confirmSetToPrimary = (carId) => {
         if (window.confirm("Are you sure you want to set thisvehicle as Primary?")) {
             setToPrimary(carId)
-            // console.log(carId)
         }
     }
 

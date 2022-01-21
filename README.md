@@ -1,7 +1,9 @@
 # Trexicity Challenge
 ## Set-up
 
-Install both FE and BE dependencies. I didn't want to `npm eject` the CRA so I modified the install script in order to keep `react-scripts`.
+Install both FE and BE dependencies. I didn't want to `npm eject` so I left the FE files at root level so `react-scripts` can still work.
+
+I'm using `node 14.17.3`
 
 `npm install`
 
@@ -15,7 +17,7 @@ The component should be capable of interfacing with a web service that saves and
 
 `npm run start:web`
 
-go to http://localhost:3000
+http://localhost:3000
 
 ---
 
@@ -27,4 +29,4 @@ However, configure the server following Nodejs/Express best practices for securi
 
 `npm run start:server`
 
-go to http://localhost:3001/hello
+http://localhost:3001/hello
