@@ -1,0 +1,20 @@
+{
+  "name": "trexitytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd car-management-system && npm i",
+    "start:web": "cd car-management-system && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphakennyn/TrexityTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alphakennyn/TrexityTest/issues"
+  },
+  "homepage": "https://github.com/alphakennyn/TrexityTest#readme"
+}
